@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+    height: 100vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+
+}
+
+.container {
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    border: 2px solid black;
+    height: 57vh;
+    overflow-y: auto;
+
+    padding: 33px;
+    margin-bottom: 20px;
+}
+
+.message {
+    background-color: peachpuff;
+    border: 2px solid black;
+    padding: 10px 2px;
+    margin: 2px;
+    border-radius: 10px;
+    height: unset;
+    overflow: auto;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+
+}
+
+.right {
+    float: right;
+    clear: both;
+
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    clear: both;
+    background: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    animation: cat 2s ease 1s 1 backwards
+}
+
+@keyframes cat {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+#messageinp {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 34px;
+
+    font-size: 15px;
+
+
+
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 38px;
+    width: 12%;
+
+
+}
+
+.btn:hover {
+    text-decoration: solid;
+    background-color: goldenrod;
+}
+
+/* .classnew{
+    display: flex;
+    text-align: center;
+    overflow: auto;
+} */
